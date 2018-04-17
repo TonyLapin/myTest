@@ -15,8 +15,6 @@ import SidenavPush from './components/Sidebar/SidenavPush';
 
 
 
-//dsfpoigk;sadfasdfj
-
 class App extends Component {
   
   state= {
@@ -28,6 +26,7 @@ class App extends Component {
     fontSize: 20,
     lineHeight: 1.4,
   }
+
 
   sidebarPush = () => {
     this.setState ({
