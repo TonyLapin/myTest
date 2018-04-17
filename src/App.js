@@ -28,14 +28,18 @@ class App extends Component {
     fontSize: 20,
     lineHeight: 1.4,
   }
+<<<<<<< HEAD
 //123121342355454354
+=======
+
+>>>>>>> bugfix200
 
   sidebarPush = () => {
     this.setState ({
       classSidebar: !this.state.classSidebar
     })
   }
-
+  
   showLogin = () => {
     this.setState ({
       loginWindowOpen: !this.state.loginWindowOpen
