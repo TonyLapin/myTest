@@ -35,7 +35,11 @@ class App extends Component {
       classSidebar: !this.state.classSidebar
     })
   }
-
+  sidebarPush1 = () => {
+    this.setState ({
+      classSidebar: !this.state.classSidebar
+    })
+  }
   showLogin = () => {
     this.setState ({
       loginWindowOpen: !this.state.loginWindowOpen
