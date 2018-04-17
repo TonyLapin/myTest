@@ -28,18 +28,14 @@ class App extends Component {
     fontSize: 20,
     lineHeight: 1.4,
   }
-//123
+
 
   sidebarPush = () => {
     this.setState ({
       classSidebar: !this.state.classSidebar
     })
   }
-  sidebarPush1 = () => {
-    this.setState ({
-      classSidebar: !this.state.classSidebar
-    })
-  }
+  
   showLogin = () => {
     this.setState ({
       loginWindowOpen: !this.state.loginWindowOpen
